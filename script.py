@@ -48,7 +48,7 @@ _RAW_EXCLUDED_USERNAMES = [
     #Annoying perons username
 ]
 EXCLUDED_USERNAME = {name.lower() for name in _RAW_EXCLUDED_USERNAMES} 
-EXCLUDED_CHATID = {1332686440}#<- This is annoying persons chatId from @userinfobot
+EXCLUDED_CHATID = {1332686440} #<- This is annoying persons chatId from @userinfobot
 
 async def should_exclude(event) -> bool:
     try:

@@ -2,3 +2,5 @@
 /.vscode
 /session_autoread.session
 *.log
+/.vs
+/tgAutoRead
